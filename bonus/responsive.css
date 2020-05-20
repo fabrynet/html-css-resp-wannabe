@@ -13,11 +13,35 @@
   .row {
     width: 100%;
     margin-top: 50px;
+      padding: 0 5%;
   }
+  /* blocco lezioni */
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 40%;
     margin: 0 5%;
+  }
+  #lezioni .left img {
+    width: 120px;
+    height: auto;
+  }
+  #lezioni .right img {
+    width: 180px;
+    min-width: 180px;
+    height: auto;
+  }
+  /* blocco steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 40%;
+    margin: 0 5%;
+  }
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+    margin: 20px auto 0;
+    padding: 0 10%;
   }
   /* blocco perchè */
   #why .row>.first,
@@ -40,6 +64,7 @@
   .row {
     width: 100%;
     margin-top: 50px;
+    padding: 0 5%;
   }
   .row::after {
     display: none;
