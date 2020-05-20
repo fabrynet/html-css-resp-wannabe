@@ -1,5 +1,32 @@
 /* desktop first */
 
+/* breakpoint compreso tra 420px e 1023px */
+@media screen and (min-width:420px) and (max-width:1023px) {
+  * {
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+  }
+  .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 40%;
+    margin: 0 5%;
+  }
+  /* blocco perchè */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0;
+  }
+}
+
 /* breakpoint inferiore ai 420px */
 @media screen and (max-width:419px) {
   * {
@@ -42,7 +69,6 @@
   #why .row>.second,
   #why .row>.third {
     margin-top: 30px;
-
   }
   #why .row img {
     padding: 5px;
