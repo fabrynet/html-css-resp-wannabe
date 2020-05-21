@@ -5,6 +5,9 @@
   * {
     box-sizing: border-box;
   }
+  body {
+    font-size: 1.2em;
+  }
   img {
     max-width: 80%;
     height: auto;
